@@ -1,4 +1,15 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
-*.pkl
+
+# Logs
 *.log
+
+# Ignore all pickle files
+*.pkl
+
+# But allow model and preprocessor in artifacts folder
+!artifacts/model.pkl
+!artifacts/preprocessor.pkl
